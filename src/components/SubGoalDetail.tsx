@@ -13,7 +13,6 @@ const SubGoalDetail: React.FC = () => {
   const { subGridKey } = useParams<{ subGridKey: string }>();
   const { 
     currentGridState, 
-    handleSubGridChange, 
     colorMap,
     allEvents,
     addEvent,
